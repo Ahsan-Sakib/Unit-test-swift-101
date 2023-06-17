@@ -1,7 +1,7 @@
 # Unit-test-swift-101
 This is a unit testing repo for the Udemy course.
 
-[Course Link](#https://www.udemy.com/course/unit-testing-ios-mobile-app)
+[Course Link](https://www.udemy.com/course/unit-testing-ios-mobile-app)
 
 # Section 1
 
