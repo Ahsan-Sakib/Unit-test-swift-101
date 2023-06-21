@@ -13,9 +13,10 @@
 		24757EBF2A3E988E00E51066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24757EBD2A3E988E00E51066 /* Main.storyboard */; };
 		24757EC12A3E988F00E51066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24757EC02A3E988F00E51066 /* Assets.xcassets */; };
 		24757EC42A3E988F00E51066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24757EC22A3E988F00E51066 /* LaunchScreen.storyboard */; };
-		24757ECF2A3E988F00E51066 /* PhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24757ECE2A3E988F00E51066 /* PhotoAppTests.swift */; };
+		24757ECF2A3E988F00E51066 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24757ECE2A3E988F00E51066 /* SignupFormModelValidatorTests.swift */; };
 		24757ED92A3E988F00E51066 /* PhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24757ED82A3E988F00E51066 /* PhotoAppUITests.swift */; };
 		24757EDB2A3E988F00E51066 /* PhotoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24757EDA2A3E988F00E51066 /* PhotoAppUITestsLaunchTests.swift */; };
+		24757EE82A3E9A7300E51066 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24757EE72A3E9A7300E51066 /* SignupFormModelValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +46,11 @@
 		24757EC32A3E988F00E51066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24757EC52A3E988F00E51066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24757ECA2A3E988F00E51066 /* PhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24757ECE2A3E988F00E51066 /* PhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppTests.swift; sourceTree = "<group>"; };
+		24757ECE2A3E988F00E51066 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
 		24757ED42A3E988F00E51066 /* PhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24757ED82A3E988F00E51066 /* PhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITests.swift; sourceTree = "<group>"; };
 		24757EDA2A3E988F00E51066 /* PhotoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24757EE72A3E9A7300E51066 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				24757EC02A3E988F00E51066 /* Assets.xcassets */,
 				24757EC22A3E988F00E51066 /* LaunchScreen.storyboard */,
 				24757EC52A3E988F00E51066 /* Info.plist */,
+				24757EE72A3E9A7300E51066 /* SignupFormModelValidator.swift */,
 			);
 			path = PhotoApp;
 			sourceTree = "<group>";
@@ -113,7 +116,7 @@
 		24757ECD2A3E988F00E51066 /* PhotoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				24757ECE2A3E988F00E51066 /* PhotoAppTests.swift */,
+				24757ECE2A3E988F00E51066 /* SignupFormModelValidatorTests.swift */,
 			);
 			path = PhotoAppTests;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				24757EBC2A3E988E00E51066 /* ViewController.swift in Sources */,
 				24757EB82A3E988E00E51066 /* AppDelegate.swift in Sources */,
+				24757EE82A3E9A7300E51066 /* SignupFormModelValidator.swift in Sources */,
 				24757EBA2A3E988E00E51066 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24757ECF2A3E988F00E51066 /* PhotoAppTests.swift in Sources */,
+				24757ECF2A3E988F00E51066 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
